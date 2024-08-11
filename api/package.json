@@ -1,15 +1,15 @@
 {
   "name": "api",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start":"node index",
     "dev":"DEVELOPMENT=true nodemon index"
   },
-  "type":"module",
+  "type": "module",
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.624.0",
     "@aws-sdk/lib-dynamodb": "^3.624.0",

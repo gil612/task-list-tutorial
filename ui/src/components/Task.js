@@ -40,7 +40,7 @@ export const Task = ({ task, fetchTasks}) => {
         <div className={classnames("flex", {
             done: isComplete
         })}>
-           <Checkbox checked={isComplete} onChange={handleUpdateTaskCompletion}/>
+           <Checkbox checked={isComplete} onChange={handleUpdateTaskCompletion} />
             <Typography variant="h4">{name}</Typography> 
         </div>
         <div className='taskButtons'>
